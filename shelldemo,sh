@@ -1,0 +1,4 @@
+#i/bin/bash
+read -p "enter a location" $location
+echo "the size of the file:"
+ls -l $location | awk -F " " '{print $5
